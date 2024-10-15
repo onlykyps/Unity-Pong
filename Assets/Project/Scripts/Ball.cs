@@ -27,7 +27,7 @@ public class Ball : MonoBehaviour
 
    void OnTriggerEnter2D(Collider2D otherCollider)
    {
-      if (otherCollider.tag == "Limit")
+      if (otherCollider.tag == "limit")
       {
          GetComponent<AudioSource>().Play();
 
